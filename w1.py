@@ -1,5 +1,6 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
+import streamlit as st
 df = px.data.iris()
 app = Dash(__name__)
 app.layout = html.Div([html.H4("Interactive scatter plot with Iris dataset"),
